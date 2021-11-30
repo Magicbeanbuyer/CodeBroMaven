@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class array {
     public static void main(String[] args) {
         String[] fruits = {"apple", "pear", "orange"};
@@ -20,5 +22,14 @@ public class array {
         for (int i: nums) {
             System.out.println(i + " " + fruits[i]);
         }
+
+        String[][] lala = {
+                {"00", "01"},
+                {"10", "11"},
+                {"20", "21"}
+        };
+
+        System.out.println(Arrays.deepToString(lala));
+//        [[00, 01], [10, 11], [20, 21]]
     }
 }
