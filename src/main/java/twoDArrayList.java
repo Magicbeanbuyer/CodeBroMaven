@@ -17,5 +17,6 @@ public class twoDArrayList {
         mixed.add(nums);
 
         System.out.println(mixed);
+        System.out.println(mixed.get(1));
     }
 }
