@@ -12,7 +12,7 @@ public class twoDArrayList {
         nums.add(1); // autoboxing
         nums.add(2);
 
-        ArrayList<ArrayList<>> mixed = new ArrayList<>();
+        ArrayList<ArrayList> mixed = new ArrayList<>();
         mixed.add(letters);
         mixed.add(nums);
 
